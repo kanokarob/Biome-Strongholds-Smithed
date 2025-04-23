@@ -1,4 +1,4 @@
-![BIOME STRONGHOLDS Logo](https://cdn.modrinth.com/data/Eab9WkP8/images/2fbcc0ba8d383e2d2d2252c8cfb49f1dcbdb524f.png)
+![BIOME STRONGHOLDS Logo](https://cdn.modrinth.com/data/HEKh9dai/images/d534239209de783907eef16013b340d292123b56.png)
 
 # Follow the Eye, See the Difference
 Biome Strongholds replaces the vanilla Stronghold with new variations based on the biome it spawns in. Each Stronghold is designed to be unique, offering different layouts and block palettes to serve as more than just a reskin, both of the vanilla Stronghold and of one another. Additonally, care has been taken to add updated mechanics, both vanilla and custom, to keep up with the direction Minecraft has evolved in since the addition of Strongholds. All of this is in pursuit of making the experience of following your Eyes of Ender new and exciting each and every time.
