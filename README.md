@@ -117,8 +117,41 @@ Some Strongholds also feature traps hidden in the walls, floors, and ceilings, s
 
 ## Puzzles
 Some Strongholds feature puzzles, either as features within specific rooms or as obstacles for exploring the Stronghold. Not all of these are strictly "puzzles" but more like "secrets", but they are included here for ease. Below are descriptions of the puzzles as well as how to solve them.
-- **Secret Button:** Generates in Jungle and Snowy Strongholds. Buttons hidden in walls, often but not always at dead ends. Clicking the button removes the wall, revealing more to explore
-- **Secret Lever:** Generates in Jungle Strongholds. One or two Levers hidden on walls or in alcoves in the wall. Finding one or both Levers (depending on the room type) will open a secret passage to the other half of the room. Can be opened from both sides, and closed again
-- **Color Puzzle:** Generates in Jungle Strongholds. A button in the middle-ish of the Room, with 4 Chiseled Tuff Brick pedestals spread throughout the room, and 4 different-colored Glazed Terracotta blocks in the wall of the room. Pressing the button starts the puzzle. Each pedestal will periodically project particles (both colored and elemental) to indicate which color of Glazed Terracotta should be placed on that pedestal. When all four pedestals have the correct block placed on top of them, a Treasure Chest will appear in the room
-- **Chest Puzzle:** Generates in Jungle Strongholds. A two-story room filled with empty Chests, and a button in the middle of the room. Pressing the button starts the puzzle, removing all but 4 of the Chests. When you open a Chest, a number between 1-4 will display above it for a few seconds, and an appropriate sound effect will play. After all 4 Chests are opened in ascending order, a Treasure Chest will appear in the middle of the room
-- **Library Puzzle:** Generates in Jungle Strongholds. A large two-story Library. There are 4 Chiseled Bookshelves spread throughout the room, that periodically play sound effects and emit particles, and 4 Ancient Tome books in item frames. Entering the room in Survival Mode for the first time starts the puzzle. Each Chiseled Bookshelf must have exactly one Book in it (does not have to be an Ancient Tome) in the correct position. If the Chiseled Bookshelf does not have the correct book placed, it will emit red skull particles, or green particles if the book is in the correct position. When all 4 Chiseled Bookshelves have the correct books placed in them, a Treasure Chest will appear on the second floor of the room
+
+<details>
+  <summary>Puzzles</summary>
+ 
+**Secret Button**
+- Generates in Jungle and Snowy Strongholds
+- Buttons hidden in walls, often but not always at dead ends
+- Clicking the button removes the wall, revealing more to explore
+
+**Secret Lever**
+- Generates in Jungle Strongholds
+- One or two Levers hidden on walls or in alcoves in the wall
+- Finding one or both Levers (depending on the room type) will open a secret passage to the other half of the room
+- Can be opened from both sides, and closed again
+
+**Color Puzzle**
+- Generates in Jungle Strongholds
+- A button in the middle-ish of the Room, with 4 Chiseled Tuff Brick pedestals spread throughout the room, and 4 different-colored Glazed Terracotta blocks in the wall of the room
+- Pressing the button starts the puzzle
+- Each pedestal will periodically project particles (both colored and elemental) to indicate which color of Glazed Terracotta should be placed on that pedestal
+- When all four pedestals have the correct block placed on top of them, a Treasure Chest will appear in the room
+
+**Chest Puzzle**
+- Generates in Jungle Strongholds
+- A two-story room filled with empty Chests, and a button in the middle of the room
+- Pressing the button starts the puzzle, removing all but 4 of the Chests
+- When you open a Chest, a number between 1-4 will display above it for a few seconds, and an appropriate sound effect will play
+- After all 4 Chests are opened in ascending order, a Treasure Chest will appear in the middle of the room
+
+**Library Puzzle**
+- Generates in Jungle Strongholds
+- A large two-story Library
+- There are 4 Chiseled Bookshelves spread throughout the room, that periodically play sound effects and emit particles, and 4 Ancient Tome books in item frames
+- Entering the room in Survival Mode for the first time starts the puzzle
+- Each Chiseled Bookshelf must have exactly one Book in it (does not have to be an Ancient Tome) in the correct position. If the Chiseled Bookshelf does not have the correct book placed, it will emit red skull particles, or green particles if the book is in the correct position
+- When all 4 Chiseled Bookshelves have the correct books placed in them, a Treasure Chest will appear on the second floor of the room
+ 
+</details>
