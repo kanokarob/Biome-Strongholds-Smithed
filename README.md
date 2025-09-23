@@ -1,7 +1,7 @@
 ![BIOME STRONGHOLDS Logo](https://cdn.modrinth.com/data/HEKh9dai/images/d534239209de783907eef16013b340d292123b56.png)
 
 # Follow the Eye, See the Difference
-Biome Strongholds replaces the vanilla Stronghold with new variations based on the biome it spawns in. Each Stronghold is designed to be unique, offering different layouts and block palettes to serve as more than just a reskin, both of the vanilla Stronghold and of one another. Additionally, care has been taken to add updated mechanics, both vanilla and custom, to keep up with the direction Minecraft has evolved in since the addition of Strongholds. All of this is in pursuit of making the experience of following your Eyes of Ender new and exciting each and every time.
+Biome Strongholds replaces the vanilla Stronghold with new variations based on the biome it spawns in. Each Stronghold is designed to be unique, offering different layouts and block palettes to serve as more than just a reskin, both of the vanilla Stronghold and of one another. Additonally, care has been taken to add updated mechanics, both vanilla and custom, to keep up with the direction Minecraft has evolved in since the addition of Strongholds. All of this is in pursuit of making the experience of following your Eyes of Ender new and exciting each and every time.
 
 [![Biome Strongholds Trailer](https://img.youtube.com/vi/kA4LRB6cECc/0.jpg)](https://www.youtube.com/watch?v=kA4LRB6cECc)
 
@@ -18,7 +18,7 @@ Although each Stronghold offers different challenges, enemies, and mechanics, th
 
 
 ## Included Biomes
-Currently, Biome Strongholds features four new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
+Currently, Biome Strongholds features five new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
 
 <details>
   <summary>Biome Strongholds</summary>
@@ -97,6 +97,23 @@ Currently, Biome Strongholds features four new Stronghold variants, which appear
     - Spawn with 5 seconds of Invisibility
     - Have increased health and damage
     - Have Fire Resistance
+
+### Swamp Stronghold
+- Generates in Swamp, Mangrove Swamp, and Lush Cave biomes
+- Made of Mud Bricks and Muddy Mangrove Roots, with floor made of Mud, Moss Blocks, and Water. Short Grass covers the floors, and Cave Vines hang from the ceilings
+- Composed of mazes that can be 1-4 floors, which adjoin to rooms or to other mazes on the way to the Portal Room
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Venomous, a weapon enchantment that inflicts Poison to damaged entities
+- There are magical Cauldrons spread throughout the Stronghold. These emit particles and will cure any nearby players of Poison while they have water in them, but lose one level of water when doing so. Empty Cauldrons can be refilled with water to regain this effect
+- Trial Spawners spawn the following mobs:
+  - Bogged
+  - Zombies with Azalea on their heads, wielding mushrooms, that attack as though they had Venemous
+  - Slimes
+    - These are larger-sized Slimes that can deal damage, but have been scaled down to fit
+    - Slimes spawned by Ominous Trial Spawners attack as though they had Venemous
+  - Witches
+    - Have increased Speed and Movement Efficiency
+    - When damaged, they will attempt to teleport behind their attacker, if there's room
+    - Witches spawned by Ominous Trial Spawners throw Lingering Potions instead of Splash Potions
  
 </details>
 
@@ -112,7 +129,7 @@ All Strongholds are filled with Decorated Pots, but some of these Pots have trap
 Some Strongholds also feature traps hidden in the walls, floors, and ceilings, some of which can be collected and used by the player. Pay close attention as you explore the Biome Strongholds.
 - **Lava Pitfall:** Generates in Desert Strongholds. Stepping on the blocks here will turn them into Lava beneath your feet
 - **Spike Ceiling:** Generates in Desert Strongholds. Stepping under these blocks will cause a Pointed Dripstone Spike to fall from the ceiling, dealing damage to entities it hits
-- **Noxious Gas Emitter:** Generates in Desert and Jungle Strongholds, and can be collected and placed by the player. These are Chiseled Tuff blocks in the ground. When an entity is nearby, they will start to project green gas particles upwards. If an entity steps directly on one of these blocks, they will be given the Poison effect.
+- **Noxious Gas Emitter:** Generates in Desert, Jungle, and Swamp Strongholds, and can be collected and placed by the player. These are Chiseled Tuff blocks in the ground. When an entity is nearby, they will start to project green gas particles upwards. If an entity steps directly on one of these blocks, they will be given the Poison effect.
 - **Flame Emitter:** Generates in Jungle Strongholds, and can be collected and placed by the player. These are Dispensers that, when powered, emit a trail of Flame particles in the direction they are facing that deal damage to entities in range (but do not set them on fire). 
 
 ## Puzzles
