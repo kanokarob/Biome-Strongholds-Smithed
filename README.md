@@ -18,7 +18,7 @@ Although each Stronghold offers different challenges, enemies, and mechanics, th
 
 
 ## Included Biomes
-Currently, Biome Strongholds features five new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
+Currently, Biome Strongholds features six new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
 
 <details>
   <summary>Biome Strongholds</summary>
@@ -30,7 +30,7 @@ Currently, Biome Strongholds features five new Stronghold variants, which appear
 - Trial Spawners spawn the following mobs:
   - Husks
   - Silverfish
-  - Skeletons wielding Golden Swords
+  - Parched wielding Golden Swords
   - Sandstorm Breezes
     - Drop Golden Nuggets and Sand instead of Breeze Rods
     - Emit sand particles
@@ -63,30 +63,34 @@ Currently, Biome Strongholds features five new Stronghold variants, which appear
 - Made of Mossy Cobblestone, Cobblestone, and Polished Tuff blocks
 - Many rooms feature puzzles or hidden buttons/levers
 - Many rooms have variants of different sizes
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Blinding, a weapon enchantment that inflicts Blindness on damaged entities
 - Trial Spawners spawn the following mobs:
   - Bogged wielding Wooden Swords
-  - Skeletons wielding Blindness Tipped Arrows
+  - Skeletons wielding Bows enchanted with Blinding
   - Smoking Creepers
     - Explode periodically in smaller explosions if an enemy is close
     - Do not die when they explode
   - Vexes
     - Slightly scaled up
     - Emit particles to help find them easier
+    - Vexes spawned during Ominous Trials wield Stone Swords enchanted with Blinding II
+    - Have a chance to drop Enchanted Books of Blinding
 
 ### Snowy Stronghold
-- Generates in all Frozen biomes, all Snowy biomes, Groves, Jagged Peaks, Ice Spikes, regular Taigas, and the Deep Dark
+- Generates in all Frozen biomes, all Snowy biomes, Groves, Jagged Peaks, Ice Spikes, and the Deep Dark
 - Made of assorted Deepslate, Packed Ice, Nether Quartz, and Polished Andesite floors that are peppered with Packed Ice, Snow Blocks, and Powdered Snow
 - Features very large rooms that adjoin to other rooms and hallways on the way to/from the Portal Room, and many secret doors opened by buttons
 - The End Portal is in the middle of the Stronghold rather than the end
   - The End Portal Frames are frozen by magical ice. You will need to find Portal Frame Keys throughout the Stronghold to unlock them and fill them with Eyes of Ender
   - Portal Frame Keys can be found in most rooms, but there will only be exactly enough for the number of unfilled End Portal Frames
   - Portal Frame Keys are indestructible and do not despawn if dropped
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Blizzard, a weapon enchantment that causes hit entities to emit snowflake particles around their feet, and lose the ability to jump for 10 seconds
 - Trial Spawners spawn the folloing mobs:
   - Ice Zombies
     - Zombies with Ice on their heads
     - Emit snowflake particles
-    - Players hit by these Zombies lose the ability to jump for 10 seconds, indicated by sounds and particles
-    - Ice Zombies spawned by Ominous Trial Spawners apply this effect to all nearby players, not just those they hit
+    - Wield Ice Blocks enchanted with Blizzard
+    - Ice Zombies spawned during Ominous Trials apply the Blizzard effect to all nearby players
   - Strays
   - Mini Phantoms
     - Slightly scaled down Phantoms
@@ -97,6 +101,8 @@ Currently, Biome Strongholds features five new Stronghold variants, which appear
     - Spawn with 5 seconds of Invisibility
     - Have increased health and damage
     - Have Fire Resistance
+    - Spiders spawned during Ominous Trials attack as though enchanted with Blizzard
+    - Have a chance to drop Enchanted Books of Blizzard
 
 ### Swamp Stronghold
 - Generates in Swamp, Mangrove Swamp, and Lush Cave biomes
@@ -114,6 +120,27 @@ Currently, Biome Strongholds features five new Stronghold variants, which appear
     - Have increased Speed and Movement Efficiency
     - When damaged, they will attempt to teleport behind their attacker, if there's room
     - Witches spawned by Ominous Trial Spawners throw Lingering Potions instead of Splash Potions
+    - Have a chance to drop Enchanted Books of Venomous
+
+### Forest Stronghold
+- Generates in all Forest biomes, including regular Taigas, Cherry Groves, and Pale Gardens
+- Made of assorted Stone Bricks, Resin Bricks, and Logs and Leaves
+  - The Log, Leaf, and Wood type changes depending on the forest biome the Stronghold starts in, to give each Forest-like biome a unique-feeling Stronghold even if they all have the same structure. This technically means there are six different Forest Strongholds, though not every world will have every type of Forest Stronghold
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Disorienting, a Chestplate enchantment that has a chance to cause attacking entities to become turned around
+- Features very large rooms that adjoin to other rooms and hallways on the way to/from the Portal Room
+- Trial Spawners spawn the folloing mobs:
+  - Small Hoglins
+    - Hoglins with reduces Scale, Health, Attack Damage, and Attack Knockback
+    - Hoglins spawned during Ominous Trials do not have these debuffs, and attack as though enchanted with Blindness
+  - Giant Silverfish
+  - Forest Breezes
+    - Attack as though enchanted with Blindness
+    - Emit Leaf particles
+    - Do not drop Breeze Rods
+  - Creaking
+    - Can be attacked and have more Health
+    - Treated as though enchanted with Disorienting
+    - Have a chance to drop Enchanted Books of Disorienting
  
 </details>
 
@@ -144,13 +171,13 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - Clicking the button removes the wall, revealing more to explore
 
 **Secret Lever**
-- Generates in Jungle Strongholds
+- Generates in Jungle and Forest Strongholds
 - One or two Levers hidden on walls or in alcoves in the wall
 - Finding one or both Levers (depending on the room type) will open a secret passage to the other half of the room
 - Can be opened from both sides, and closed again
 
 **Color Puzzle**
-- Generates in Jungle Strongholds
+- Generates in Jungle and Forest Strongholds
 - A button in the middle-ish of the Room, with 4 Chiseled Tuff Brick pedestals spread throughout the room, and 4 different-colored Glazed Terracotta blocks in the wall of the room
 - Pressing the button starts the puzzle
 - Each pedestal will periodically project particles (both colored and elemental) to indicate which color of Glazed Terracotta should be placed on that pedestal
@@ -170,5 +197,11 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - Entering the room in Survival Mode for the first time starts the puzzle
 - Each Chiseled Bookshelf must have exactly one Book in it (does not have to be an Ancient Tome) in the correct position. If the Chiseled Bookshelf does not have the correct book placed, it will emit red skull particles, or green particles if the book is in the correct position
 - When all 4 Chiseled Bookshelves have the correct books placed in them, a Treasure Chest will appear on the second floor of the room
+
+**Fairy Sapling Puzzle**
+- Generates in Forest Strongholds
+- When you enter a room with this puzzle, a Sapling will appear emitting sparkling particles
+- When the Sapling is right clicked, it will move to another part of the room
+- Once found four times, the Sapling will despawn and a Treasure loot Chest will spawn somewhere in the room
  
 </details>
