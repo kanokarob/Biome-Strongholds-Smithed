@@ -18,7 +18,7 @@ Although each Stronghold offers different challenges, enemies, and mechanics, th
 
 
 ## Included Biomes
-Currently, Biome Strongholds features six new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
+Currently, Biome Strongholds features seven new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
 
 <details>
   <summary>Biome Strongholds</summary>
@@ -141,6 +141,26 @@ Currently, Biome Strongholds features six new Stronghold variants, which appear 
     - Can be attacked and have more Health
     - Treated as though enchanted with Disorienting
     - Have a chance to drop Enchanted Books of Disorienting
+
+### Savanna Stronghold
+- Generates in all Savanna-like biomes, except Wooded Badlands due to their proximity to regular Badlands for the Desert Stronghold
+- Heavily Steampunk-themed made of primarily Copper Blocks, and with lots of pipes and other machinery
+- Features many new traps embedded in the walls and floors
+- Many rooms feature puzzles or hidden buttons/levers
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Steaming, a projectile weapon enchantment that gives hit entities Levitation, and at higher levels, sets them on fire
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Pickpocket, a weapon enchantment that attempts to cause hit players to drop an item from their hotbar, if there's an item in the selected slot to drop
+- Trial Spawners spawn the following mobs:
+  - Skeletons wielding Copper Swords enchanted with Pickpocket
+  - Spiders with reduced Scale and Health
+    - During Ominous Trials, these are Cave Spiders with reduced Scale
+  - Steaming Ghasts
+    - Scaled-down Ghasts that shoot non-explosive Fireballs
+    - Attack as though enchanted with Steaming, or Steaming II during Ominous Trials
+  - Copper Golems
+    - Hostile to players, with increased Health
+    - Emit particles to help indicate their aggression
+    - Attack as though enchanted with Pickpocket
+    - Have a chance to drop Enchanted Books of Pickpocket
  
 </details>
 
@@ -157,7 +177,10 @@ Some Strongholds also feature traps hidden in the walls, floors, and ceilings, s
 - **Lava Pitfall:** Generates in Desert Strongholds. Stepping on the blocks here will turn them into Lava beneath your feet
 - **Spike Ceiling:** Generates in Desert Strongholds. Stepping under these blocks will cause a Pointed Dripstone Spike to fall from the ceiling, dealing damage to entities it hits
 - **Noxious Gas Emitter:** Generates in Desert, Jungle, and Swamp Strongholds, and can be collected and placed by the player. These are Chiseled Tuff blocks in the ground. When an entity is nearby, they will start to project green gas particles upwards. If an entity steps directly on one of these blocks, they will be given the Poison effect.
-- **Flame Emitter:** Generates in Jungle Strongholds, and can be collected and placed by the player. These are Dispensers that, when powered, emit a trail of Flame particles in the direction they are facing that deal damage to entities in range (but do not set them on fire). 
+- **Flame Emitter:** Generates in Jungle Strongholds, and can be collected and placed by the player. These are Dispensers that, when powered, emit a trail of Flame particles in the direction they are facing that deal damage to entities in range (but do not set them on fire).
+- **Steam Emitter:** Generates in Savanna Strongholds, and can be collected and placed by the player. These are Copper Bulbs in the ground. When an entity is nearby, they will start to project steam particles upwards. If an entity steps directly on one of these blocks, they will take some fire damage and get brief levitation.
+- **Blade Trap:** Generates in Savanna Strongholds, and can be collected and placed by the player. These appear as Jukeboxes in the ground or wall. When an entity is nearby, slashes a Copper Sword in the direction the Trap is facing, dealing high damage.
+- **Spinning Blades:** Generates in Savanna Strongholds, and can be collected and placed by the player. These are Chiseled Copper Blocks with a Lightning Rod on top, and two Copper Swords spinning around it. Entities near the Copper Swords take damage. Only the Chiseled Copper Block can be mined, and is what drops the Trap item.
 
 ## Puzzles
 Some Strongholds feature puzzles, either as features within specific rooms or as obstacles for exploring the Stronghold. Not all of these are strictly "puzzles" but more like "secrets", but they are included here for ease. Below are descriptions of the puzzles as well as how to solve them.
@@ -171,7 +194,7 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - Clicking the button removes the wall, revealing more to explore
 
 **Secret Lever**
-- Generates in Jungle and Forest Strongholds
+- Generates in Jungle, Forest, and Savanna Strongholds
 - One or two Levers hidden on walls or in alcoves in the wall
 - Finding one or both Levers (depending on the room type) will open a secret passage to the other half of the room
 - Can be opened from both sides, and closed again
@@ -184,7 +207,7 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - When all four pedestals have the correct block placed on top of them, a Treasure Chest will appear in the room
 
 **Chest Puzzle**
-- Generates in Jungle Strongholds
+- Generates in Jungle and Savanna Strongholds
 - A two-story room filled with empty Chests, and a button in the middle of the room
 - Pressing the button starts the puzzle, removing all but 4 of the Chests
 - When you open a Chest, a number between 1-4 will display above it for a few seconds, and an appropriate sound effect will play
@@ -193,7 +216,7 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 **Library Puzzle**
 - Generates in Jungle Strongholds
 - A large two-story Library
-- There are 4 Chiseled Bookshelves spread throughout the room, that periodically play sound effects and emit particles, and 4 Ancient Tome books in item frames
+- There are 4 Chiseled Bookshelves spread throughout the room that periodically play sound effects and emit particles, and 4 Ancient Tome books in item frames
 - Entering the room in Survival Mode for the first time starts the puzzle
 - Each Chiseled Bookshelf must have exactly one Book in it (does not have to be an Ancient Tome) in the correct position. If the Chiseled Bookshelf does not have the correct book placed, it will emit red skull particles, or green particles if the book is in the correct position
 - When all 4 Chiseled Bookshelves have the correct books placed in them, a Treasure Chest will appear on the second floor of the room
@@ -203,5 +226,11 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - When you enter a room with this puzzle, a Sapling will appear emitting sparkling particles
 - When the Sapling is right clicked, it will move to another part of the room
 - Once found four times, the Sapling will despawn and a Treasure loot Chest will spawn somewhere in the room
+
+**Puzzle Chest**
+- Generates in Savanna Strongholds
+- Starts locked
+- When you get near, an item will appear above the Chest, representing the key needed to open it
+- Does not contain loot until opened with the key item. If broken, the puzzle and its loot are lost
  
 </details>
