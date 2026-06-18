@@ -18,7 +18,7 @@ Although each Stronghold offers different challenges, enemies, and mechanics, th
 
 
 ## Included Biomes
-Currently, Biome Strongholds features seven new Stronghold variants, which appear in groups of similar biomes. More Biome Strongholds will be added over time, with the inevitable goal of replacing all biomes, thereby preventing the vanilla Stronghold from spawning at all.
+The vanilla Stronghold no longer spawns at all, instead replaced with eight biome-specific variants, covering all vanilla biomes.
 
 <details>
   <summary>Biome Strongholds</summary>
@@ -161,6 +161,24 @@ Currently, Biome Strongholds features seven new Stronghold variants, which appea
     - Emit particles to help indicate their aggression
     - Attack as though enchanted with Pickpocket
     - Have a chance to drop Enchanted Books of Pickpocket
+
+### Plains Stronghold
+- Generates in all Plains biomes, Beach Biomes, regular Rivers, and Windswept Hill biomes
+- Designed like Trail Ruins, featuring lots of Terraoccta, Mud Bricks, Stone Bricks, and regular Bricks
+- There is lots of Gravel and Suspicious Gravel throughout the Stronghold
+- Some rooms feature puzzles or hidden passages
+- Some rooms have variants of different sizes
+- Most End Portal Frames are hidden in Suspicious Gravel in the End Portal Room. Breaking the Suspicious Gravel will reveal the frame but trigger a trap. Brushing the Suspicious Gravel will reveal the frame safely
+- Trial Spawners and Vaults have a chance to eject Enchanted Books of Zombifying, a weapon enchantment that deals extra damage to living entities (like reverse Smite), and gives hit entities some negative effects
+- Trial Spawners spawn the following mobs:
+  - Zombified Villagers wielding Spears, that cannot be cured
+  - Skeletons wielding Spears
+  - Spiders
+    - Ominous Trial Spawners spawn Spider Jockeys, with the Skeleton riders wielding Spears
+  - Ravagers
+    - Reduced Scale, Health, and Attack Damage
+    - Attack as though enchanted with Zombifying
+    - Have a chance to drop Enchanted Books of Zombifying
  
 </details>
 
@@ -198,9 +216,14 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - One or two Levers hidden on walls or in alcoves in the wall
 - Finding one or both Levers (depending on the room type) will open a secret passage to the other half of the room
 - Can be opened from both sides, and closed again
+ 
+**Jukebox Passageway**
+- Generates in Plains Strongholds
+- Jukeboxes that, when a Music Disc is placed inside, disappear to reveal a secret passage
+- Drops the Music Disc when removed
 
 **Color Puzzle**
-- Generates in Jungle and Forest Strongholds
+- Generates in Jungle, Forest Strongholds, and Plains Strongholds
 - A button in the middle-ish of the Room, with 4 Chiseled Tuff Brick pedestals spread throughout the room, and 4 different-colored Glazed Terracotta blocks in the wall of the room
 - Pressing the button starts the puzzle
 - Each pedestal will periodically project particles (both colored and elemental) to indicate which color of Glazed Terracotta should be placed on that pedestal
@@ -214,7 +237,7 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - After all 4 Chests are opened in ascending order, a Treasure Chest will appear in the middle of the room
 
 **Library Puzzle**
-- Generates in Jungle Strongholds
+- Generates in Jungle and Plains Strongholds
 - A large two-story Library
 - There are 4 Chiseled Bookshelves spread throughout the room that periodically play sound effects and emit particles, and 4 Ancient Tome books in item frames
 - Entering the room in Survival Mode for the first time starts the puzzle
@@ -228,7 +251,7 @@ Some Strongholds feature puzzles, either as features within specific rooms or as
 - Once found four times, the Sapling will despawn and a Treasure loot Chest will spawn somewhere in the room
 
 **Puzzle Chest**
-- Generates in Savanna Strongholds
+- Generates in Savanna and Plains Strongholds
 - Starts locked
 - When you get near, an item will appear above the Chest, representing the key needed to open it
 - Does not contain loot until opened with the key item. If broken, the puzzle and its loot are lost
